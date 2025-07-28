@@ -13,8 +13,8 @@ export const projects = [
     description:"A professional full-stack web application built for a real-world law firm to manage their online presence and streamline client interactions. The platform allows visitors to learn about the firm, explore their practice areas, read blogs, and schedule consultancy appointments. On the backend, a secure admin dashboard enables the firm to manage active cases, consultancy requests, and contact submissions efficiently.",
     image: '/images/2.png',
     tags: ['Next.js', 'React', 'Mongodb'],
-    source: 'https://github.com/raianurag18/law-firm-webapp',
-    visit: 'https://arsagslegal.vercel.app/',
+    source: 'https://arsagslegal.vercel.app/',
+    visit: 'https://github.com/raianurag18/law-firm-webapp',
     id: 1,
   },
   
