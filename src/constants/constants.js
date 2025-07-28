@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/2.png',
     tags: ['Next.js', 'React', 'Mongodb'],
     source: 'https://github.com/raianurag18/law-firm-webapp',
-    visit: 'https://github.com/raianurag18/law-firm-webapp',
+    visit: 'https://arsagslegal.vercel.app/',
     id: 1,
   },
   
