@@ -20,7 +20,10 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
+@media ${(props) => props.theme.breakpoints.md} {
+  padding: 2rem;
+  padding-bottom: 0;
+}
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
@@ -28,6 +31,9 @@ export const BlogCard = styled.div`
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
     width: 100%;
   }
 `;
@@ -110,9 +116,3 @@ export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
 `
-
-export const ProceedButtonContainer = styled.div`
-  position: absolute;
-  right: 48px;
-  bottom: 40px;
-`;

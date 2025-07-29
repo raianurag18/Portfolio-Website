@@ -47,8 +47,13 @@ export const CarouselItem = styled.div`
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
   }
+
+  @media ${props => props.theme.breakpoints.lg} {
+    max-width: 124px;
+  }
   
   @media ${props => props.theme.breakpoints.sm} {
+>>>>>>> Stashed changes
     margin-left: 32px;
     min-width: 120px;
     background: #0E131F;

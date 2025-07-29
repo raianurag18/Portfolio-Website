@@ -1,4 +1,5 @@
 import { IoIosArrowDropdown } from 'react-icons/io';
+import { FaBars } from 'react-icons/fa';
 import styled from 'styled-components';
 
 export const Container = styled.div`
@@ -32,7 +33,7 @@ export const Div2 = styled.div`
   justify-content: space-around;
   gap: 4rem;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    display: none;
   }
 `;
 export const Div3 = styled.div`
@@ -43,6 +44,20 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+  }
+`;
+
+export const HamburgerIcon = styled(FaBars)`
+  display: none;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
   }
 `;
 
